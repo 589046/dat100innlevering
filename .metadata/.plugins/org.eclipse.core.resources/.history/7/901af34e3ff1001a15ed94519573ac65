@@ -1,0 +1,15 @@
+package obligInnlevering;
+import java.util.Scanner;
+
+public class Oppgåve6 {
+	public static void main(String[] args) {
+		Scanner inn = new Scanner (System.in);
+		int n = inn.nextInt();
+		int term = n;
+		System.out.println(term);
+		
+		for (int i = term; i < 5; i++) {
+			  System.out.println(i);
+		}
+	}
+}

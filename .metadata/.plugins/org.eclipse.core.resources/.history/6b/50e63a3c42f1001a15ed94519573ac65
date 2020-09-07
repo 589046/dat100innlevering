@@ -1,0 +1,10 @@
+package obligInnlevering;
+import java.util.Scanner;
+
+public class Oppgåve6 {
+	public static void main(String[] args) {
+		for (int i = 6; i > 0; i--) {
+			System.out.println(i);
+		}
+	}
+}

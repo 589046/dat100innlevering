@@ -1,0 +1,12 @@
+package obligInnlevering;
+import java.util.Scanner;
+
+public class Oppgåve5b {
+
+	public static void main(String[] args) {
+		Scanner inn = new Scanner (System.in);
+		
+		int[] poengSummer = {inn.nextInt()};
+		System.out.println(poengSummer);
+	}
+}

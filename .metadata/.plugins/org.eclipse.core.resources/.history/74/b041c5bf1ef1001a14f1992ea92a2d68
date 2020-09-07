@@ -1,0 +1,33 @@
+package obligInnlevering;
+
+import java.util.Scanner;
+
+public class Oppgåve5 {
+	public static void main(String[] args) {
+		Scanner inn = new Scanner (System.in);
+		int poeng = inn.nextInt();
+		
+		if (poeng >= 90 && poeng <=100) {
+			String karakter = "A";
+			
+		}if (poeng >= 80 && poeng <=89) {
+			String karakter = "B";
+			
+		}if (poeng >= 60 && poeng <=79) {
+			String karakter = "C";
+			
+		}if (poeng >= 50 && poeng <=59) {
+			String karakter = "D";
+			
+		}if (poeng >= 40 && poeng <=49) {
+			String karakter = "E";
+			
+		} if (poeng < 40) {
+			String karakter = "F";
+			
+		} else {
+			System.out.println("Poengsummen er ugyldig! Skriv inn riktig poengsum");
+		}
+		Sytem.out.println(karakter);
+	}
+}

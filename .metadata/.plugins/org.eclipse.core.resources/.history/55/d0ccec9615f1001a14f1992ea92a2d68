@@ -1,0 +1,32 @@
+package obligInnlevering;
+
+import java.util.Scanner;
+
+public class Oppgåve4 {
+	public static void main(String[] args) {
+		Scanner inn = new Scanner (System.in);
+		int lønn = inn.nextInt();
+		
+		if (lønn < 180800) {
+			double trinn0 = lønn * 0.22;
+			System.out.println("hei1");
+			
+		} if (lønn >= 180800 && lønn < 254500) {
+			double trinn0 = 180800 * 0.22;
+			lønn = lønn-180800;
+			double trinn1 = (lønn*0.239);
+			System.out.println(trinn0);
+			System.out.println(trinn1);
+			
+		} if (lønn >= 254500 && lønn < 639750) {
+			double trinn0 = 180800 * 0.22;
+			lønn = lønn-180800;
+			double trinn1 = 17614.3;
+			
+			double trinn2 = (lønn-73700)*0.262;
+			System.out.println(trinn0);
+			System.out.println(trinn1);
+			System.out.println(trinn2);
+		}
+	}
+}
