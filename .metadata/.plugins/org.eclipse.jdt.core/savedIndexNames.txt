@@ -1,3 +1,22 @@
-INDEX VERSION 1.131+O:\DAT100\git\dat100innlevering\.metadata\.plugins\org.eclipse.jdt.core
+INDEX VERSION 1.131+O:\Dataingeniør Bachelor\1. Semester\DAT100\git\dat100innlevering\.metadata\.plugins\org.eclipse.jdt.core
+2485555926.index
+2682383076.index
+2452357293.index
+3214578714.index
+1649964054.index
+183454704.index
+3555418601.index
 3441529887.index
+2720206657.index
+800046434.index
+1612863158.index
+2187770699.index
+1088118750.index
 2196199803.index
+4087912638.index
+3902119106.index
+867302637.index
+1820386785.index
+4166379350.index
+3895638076.index
+2409585520.index

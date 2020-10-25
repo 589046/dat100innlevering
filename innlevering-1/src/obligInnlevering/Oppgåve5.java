@@ -14,7 +14,7 @@ public class Oppgåve5 {
 				String karakter = "A";		
 				System.out.println(karakter);
 				
-			}if (poeng >= 80 && poeng <=89) {
+			} if (poeng >= 80 && poeng <=89) {
 				String karakter = "B";		
 				System.out.println(karakter);
 				
