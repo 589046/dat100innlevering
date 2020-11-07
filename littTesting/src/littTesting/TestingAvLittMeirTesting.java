@@ -1,14 +1,24 @@
 package littTesting;
 
+import java.io.PrintWriter;
+
 public class TestingAvLittMeirTesting {
-	public static void main(String[] args) {
-		LittMeirTesting s1 = new LittMeirTesting();
-		s1.skriv();
+	public static void main(String[] args) throws Exception{
+
+		String studentnr = "123 2";
+		String fornavn = "Kuk2";
+		String etternavn = "Mann2";
 		
-		s1.studentnr = 1;
-		s1.fornavn = "Per";
-		s1.etternavn = "Karlsen";
+		String fil = "navn.txt";
+		PrintWriter skriver = new PrintWriter(fil);
 		
-		s1.skriv();
+		String[] navnTab = {studentnr, fornavn, etternavn};
+		
+		for (int i = 0; i < navnTab.length; i++) {
+			skriver.print(navnTab[i]);
+		}
+		skriver.println("");
+	
+		skriver.close();
 	}
 }
